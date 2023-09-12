@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import Slideshow from "../Slideshow";
+import Slideshow from "../components/Slideshow";
 import data from "../data.json";
 import NotFound from "./NotFound";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
