@@ -1,0 +1,42 @@
+.slideshow {
+        width: 100%;
+        height: 40vh;
+        position: relative;
+      }
+      
+     .slideshow_img{
+        position: absolute;
+	      width: 100%;
+	      height: 100%;
+	      z-index: -1;
+	      object-fit: cover;
+	      object-position: center;
+        border-radius: 25px;
+     }
+      
+     .arrow{
+        position: absolute;
+        width: 5%;
+        height: 20%;
+      }
+
+
+      .arrow_left {
+        left: 10px; 
+        bottom: 104px;     
+      }
+            
+      .arrow_right {
+        right: 10px;
+        bottom: 104px;     
+      }
+      
+      .image_number{
+        position: absolute;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;            
+        bottom: 200px; 
+        bottom: 0px;
+        left: 49%;       
+      }

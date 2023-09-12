@@ -1,0 +1,28 @@
+
+.banner {
+    position: relative;
+  }
+  
+  .banner img {
+    width: 100%;
+    max-height: 223px;
+    object-fit: cover;
+    border-radius: 20px;
+    filter: brightness(0.8);
+  }
+  
+
+  // police pour le titre dans la bannière
+  .banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+  }
+
+  .title_banner{
+    font-weight: 500;
+    font-size: 2.6vw;
+  }

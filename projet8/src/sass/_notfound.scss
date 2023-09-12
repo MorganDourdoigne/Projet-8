@@ -1,0 +1,31 @@
+// Css page notfound
+.not-found {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #FF6060;
+  }
+  
+  .not-found-title {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 288px;
+    margin-bottom: 30px;
+     }
+
+.not-found-text {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 36px;
+  margin-top: 32px;
+}
+
+.not-found-link {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FF6060;
+  margin-top: 16px;
+  margin-bottom: 100px;
+}

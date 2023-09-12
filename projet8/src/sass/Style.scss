@@ -1,0 +1,26 @@
+// style.scss
+@import "./layout";
+@import "./footer";
+@import "./header";
+@import "./banner";
+@import "./card";
+@import "./collapse";
+@import "./notfound";
+@import "./logement";
+@import "./slideshow";
+@import "./mediaqueries";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+h1, h2, a, h3, p, ul, li {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  #root{
+    margin: 5px 50px 0px 50px;
+    box-sizing: border-box;
+    
+        
+  }
+  

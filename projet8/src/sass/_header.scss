@@ -1,0 +1,40 @@
+.header {
+  height: 80px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.header-nav {
+  margin-right: 10px;
+}
+
+.header-nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.header-nav-item {
+  margin-left: 70px;
+  font-weight: 500;
+  font-size: 24px; 
+}
+
+.header-nav-link {
+  text-decoration: none;
+  color: #FF6060;
+
+}
+
+.header-nav-link:hover {
+  text-decoration: underline;
+  color: #FF6060;
+}

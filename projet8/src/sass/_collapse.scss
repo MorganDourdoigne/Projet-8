@@ -1,0 +1,139 @@
+// contenaire flex des collapses
+.containerCollapses{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+// layout du Title collapse
+.titleCollapse{
+  background-color: #FF6060;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  Width: 100%;
+  Height: 52px;    
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+// texte p ouverture collapse
+.content {
+  background-color: #F6F6F6;
+  color: #FF6060;
+  padding: 20px 15px 20px 15px;
+  position: relative;
+  margin-top: 2px;
+  margin-bottom: -3px;
+ }
+
+ //  layout papragraphe collapse
+.pCollapse{
+  font-weight: 400;
+  size: 18px;
+}
+
+//  marge entre les diff. collapses
+.margin_bottom{
+margin-bottom: 8px;
+width: 100%;
+}
+
+
+// animation flèche page Logement ouverture collapse
+.description {
+position: relative;
+}
+
+.description button {
+border: none;
+color: white;
+cursor: pointer;
+position: absolute;
+top: 24px;
+right: 22px;
+transition: transform 0.3s ease-in-out;
+}
+
+.description button.rotate {
+transform: rotate(180deg);
+}
+
+.description button.equipment {
+border: none;
+color: white;
+cursor: pointer;
+position: absolute;
+top: 24px;
+transition: transform 0.3s ease-in-out;
+}
+
+.description button.equipment.rotate {
+transform: rotate(180deg);
+}
+
+
+// ouverture fermeture collapse sur la page APropos.js
+.titleCollapse button {
+border: none;
+color: white;
+cursor: pointer;
+position: absolute;
+top: 19px;
+right: 22px;
+transition: transform 0.3s ease-in-out;
+}
+
+.titleCollapse button.rotate {
+transform: rotate(180deg);
+}
+
+
+.texte_des{
+font-weight: 500;
+font-size: 18px;
+
+}
+
+#police {
+font-size: 24px;
+font-weight: 500;
+margin-left: 15px;
+padding-top: 13px;
+}
+
+#police1 {
+font-size: 24px;
+font-weight: 500;
+margin-left: 15px; 
+padding-top: 13px;
+}
+
+#police2 {
+font-size: 24px;
+font-weight: 500;
+margin-left: 15px; 
+padding-top: 13px;
+}
+
+#police3 {
+font-size: 24px;
+font-weight: 500;
+margin-left: 15px; 
+padding-top: 13px;
+}
+
+
+.column {
+  display: flex;
+  flex-direction: column; 
+  width: 47%;
+ }
+
