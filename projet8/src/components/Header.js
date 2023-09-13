@@ -9,7 +9,7 @@ function Header() {
       <nav className="header-nav">
         <ul className="header-nav-list">
           <li className="header-nav-item">
-            <NavLink to="/" exact activeClassName="active" className="header-nav-link">Accueil</NavLink>
+            <NavLink to="/" activeClassName="active" className="header-nav-link">Accueil</NavLink>
           </li>
           <li className="header-nav-item">
             <NavLink to="/a-propos" activeClassName="active" className="header-nav-link">A Propos</NavLink>
