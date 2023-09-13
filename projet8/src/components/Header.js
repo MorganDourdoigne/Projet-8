@@ -7,12 +7,12 @@ function Header() {
     <header className="header">
       <img src={logoRed} alt="Logo Kasa" className="header-logo" />
       <nav className="header-nav">
-        <ul className="header-nav-list">
+        <ul className="header-nav-list active">
           <li className="header-nav-item">
-            <NavLink to="/" activeClassName="active" className="header-nav-link">Accueil</NavLink>
+            <NavLink to="/"  className="header-nav-link">Accueil</NavLink>
           </li>
           <li className="header-nav-item">
-            <NavLink to="/a-propos" activeClassName="active" className="header-nav-link">A Propos</NavLink>
+            <NavLink to="/a-propos"  className="header-nav-link">A Propos</NavLink>
           </li>
         </ul>
       </nav>
