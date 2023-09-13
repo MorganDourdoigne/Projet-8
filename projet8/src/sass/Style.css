@@ -55,7 +55,8 @@ img {
   color: #FF6060;
 }
 
-.header-nav-link:hover {
+.header-nav-link:hover,
+.header-nav-link.active {
   text-decoration: underline;
   color: #FF6060;
 }

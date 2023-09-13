@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logoRed from './logo_kasa1.png'
 
 function Header() {
@@ -9,10 +9,10 @@ function Header() {
       <nav className="header-nav">
         <ul className="header-nav-list">
           <li className="header-nav-item">
-          <Link to="/" exact="true" className="header-nav-link">Accueil</Link>
+            <NavLink to="/" exact activeClassName="active" className="header-nav-link">Accueil</NavLink>
           </li>
           <li className="header-nav-item">
-            <Link to="/a-propos" className="header-nav-link">A Propos</Link>
+            <NavLink to="/a-propos" activeClassName="active" className="header-nav-link">A Propos</NavLink>
           </li>
         </ul>
       </nav>
