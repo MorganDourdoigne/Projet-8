@@ -594,6 +594,9 @@ button {
   .card-title {
     font-size: 2.5vw;
   }
+  .text_describe {
+    margin-top: -19px;
+  }
 }
 h1, h2, a, h3, p, ul, li {
   font-family: "Montserrat", sans-serif;
